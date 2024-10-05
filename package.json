@@ -1,0 +1,19 @@
+{
+  "name": "code-productions",
+  "version": "1.0.0",
+  "description": "Website for Code Productions",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/broscode-dev/code-productions.git"
+  },
+  "author": "Jen Thomas James, Franklin Jetty Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broscode-dev/code-productions/issues"
+  },
+  "homepage": "https://github.com/broscode-dev/code-productions#readme"
+}
