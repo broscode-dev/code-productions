@@ -4,7 +4,8 @@
   "description": "Website for Code Productions",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss ./styles.css -o output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/broscode-dev/code-productions/issues"
   },
-  "homepage": "https://github.com/broscode-dev/code-productions#readme"
+  "homepage": "https://github.com/broscode-dev/code-productions#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.13"
+  }
 }
