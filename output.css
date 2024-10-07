@@ -609,6 +609,9 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
 .bg-primary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 114 26 / var(--tw-bg-opacity));
@@ -646,6 +649,9 @@ video {
 }
 .p-3 {
   padding: 0.75rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -716,6 +722,9 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
