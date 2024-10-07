@@ -499,13 +499,13 @@ video {
 [hidden] {
   display: none;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.min-h-dvh {
+  min-height: 100dvh;
 }
-.font-bold {
-  font-weight: 700;
+.w-full {
+  width: 100%;
 }
-.underline {
-  text-decoration-line: underline;
+.bg-secondary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 5 11 / var(--tw-bg-opacity));
 }
