@@ -4,7 +4,7 @@
   "description": "Website for Code Productions",
   "main": "index.html",
   "scripts": {
-        "dev": "npx serve ./index.html",
+    "build": "postcss ./styles.css -o output.css",
     "build:css": "postcss ./styles.css -o output.css --watch"
   },
   "repository": {
