@@ -4,7 +4,7 @@
   "description": "Website for Code Productions",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npx serve ./index.html",
     "build:css": "postcss ./styles.css -o output.css --watch"
   },
   "repository": {
