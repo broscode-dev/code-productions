@@ -14,7 +14,7 @@ const reviews = gsap.utils.toArray(".reviews");
 
 gsap.to(reviews, {
   xPercent: -100 * (reviews.length - 1),
-  ease: "sine.out",
+  ease: "none",
   scrollTrigger: {
     trigger: shoutouts,
     pin: "shoutouts",
