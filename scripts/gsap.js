@@ -1,7 +1,4 @@
-const lenis = new Lenis({
-  duration: 1.2,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-});
+const lenis = new Lenis();
 
 function raf(time) {
   lenis.raf(time);
@@ -12,17 +9,18 @@ function raf(time) {
 requestAnimationFrame(raf);
 gsap.registerPlugin(ScrollTrigger);
 
-const reviewsWrapper = document.querySelector(".reviews-wrapper");
+const shoutouts = document.getElementById("shoutouts");
 const reviews = gsap.utils.toArray(".reviews");
 
 gsap.to(reviews, {
   xPercent: -100 * (reviews.length - 1),
-  ease: "none",
+  ease: "sine.out",
   scrollTrigger: {
-    trigger: reviewsWrapper,
-    scrub: 1,
+    trigger: shoutouts,
+    pin: "shoutouts",
+    scrub: true,
     snap: 1 / (reviews.length - 1),
-    start: "top 20%",
-    end: "+=" + reviewsWrapper.offsetWidth,
+    start: "top center",
+    end: "+=" + shoutouts.offsetWidth,
   },
 });

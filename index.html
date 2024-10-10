@@ -11,6 +11,10 @@
     />
     <link rel="stylesheet" href="./output.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.13/dist/lenis.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -261,80 +265,85 @@
           </div>
         </div>
         <!-- Shoutout -->
-        <div class="flex gap-3 reviews-wrapper overflow-auto w-dvw">
-          <!-- 1st Review -->
-          <div
-            class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
-          >
-            <div class="flex gap-1">
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-            </div>
-            <q class="font-light italic text-base md:text-lg xl:text-xl"
-              >We hired CODE Productions for our music festival, and they
-              exceeded all expectations. The coordination between the
-              performers, vendors, and tech teams was seamless, making the event
-              a huge success. Highly recommend them for any music event!</q
+        <section id="shoutouts" class="overflow-x-hidden">
+          <div class="flex gap-3 reviews-wrapper">
+            <!-- 1st Review -->
+            <div
+              class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
             >
-            <div class="flex flex-col">
-              <h1 class="font-bold text-base md:text-lg xl:text-2xl">
-                Don Cherian
-              </h1>
-              <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
+              <div class="flex gap-1">
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+              </div>
+              <q class="font-light italic text-base md:text-lg xl:text-xl"
+                >We hired CODE Productions for our music festival, and they
+                exceeded all expectations. The coordination between the
+                performers, vendors, and tech teams was seamless, making the
+                event a huge success. Highly recommend them for any music
+                event!</q
+              >
+              <div class="flex flex-col">
+                <h1 class="font-bold text-base md:text-lg xl:text-2xl">
+                  Don Cherian
+                </h1>
+                <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
+              </div>
+            </div>
+            <!-- 2nd Review -->
+            <div
+              class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
+            >
+              <div class="flex gap-1">
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+              </div>
+              <q class="font-light italic text-base md:text-lg xl:text-xl"
+                >We hired CODE Productions for our music festival, and they
+                exceeded all expectations. The coordination between the
+                performers, vendors, and tech teams was seamless, making the
+                event a huge success. Highly recommend them for any music
+                event!</q
+              >
+              <div class="flex flex-col">
+                <h1 class="font-bold text-base md:text-lg xl:text-2xl">
+                  Franklin Jetty Johnson
+                </h1>
+                <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
+              </div>
+            </div>
+            <!-- 3rd Review -->
+            <div
+              class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
+            >
+              <div class="flex gap-1">
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+                <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
+              </div>
+              <q class="font-light italic text-base md:text-lg xl:text-xl"
+                >We hired CODE Productions for our music festival, and they
+                exceeded all expectations. The coordination between the
+                performers, vendors, and tech teams was seamless, making the
+                event a huge success. Highly recommend them for any music
+                event!</q
+              >
+              <div class="flex flex-col">
+                <h1 class="font-bold text-base md:text-lg xl:text-2xl">
+                  Jen James
+                </h1>
+                <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
+              </div>
             </div>
           </div>
-          <!-- 2nd Review -->
-          <div
-            class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
-          >
-            <div class="flex gap-1">
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-            </div>
-            <q class="font-light italic text-base md:text-lg xl:text-xl"
-              >We hired CODE Productions for our music festival, and they
-              exceeded all expectations. The coordination between the
-              performers, vendors, and tech teams was seamless, making the event
-              a huge success. Highly recommend them for any music event!</q
-            >
-            <div class="flex flex-col">
-              <h1 class="font-bold text-base md:text-lg xl:text-2xl">
-                Franklin Jetty Johnson
-              </h1>
-              <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
-            </div>
-          </div>
-          <!-- 3rd Review -->
-          <div
-            class="w-full flex flex-col gap-3 mt-10 bg-secondary-100 p-5 min-w-full reviews"
-          >
-            <div class="flex gap-1">
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-              <img class="w-8 md:w-10" src="./assets/star.svg" alt="star" />
-            </div>
-            <q class="font-light italic text-base md:text-lg xl:text-xl"
-              >We hired CODE Productions for our music festival, and they
-              exceeded all expectations. The coordination between the
-              performers, vendors, and tech teams was seamless, making the event
-              a huge success. Highly recommend them for any music event!</q
-            >
-            <div class="flex flex-col">
-              <h1 class="font-bold text-base md:text-lg xl:text-2xl">
-                Jen James
-              </h1>
-              <h1 class="font-thin text-xs lg:text-sm">Event Coordinator</h1>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
       <!-- Ticket CTA -->
       <section
