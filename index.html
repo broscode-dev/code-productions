@@ -23,17 +23,18 @@
     />
   </head>
   <body>
+    <!-- Loading Screen -->
+    <div
+      class="loading-screen h-dvh w-dvw bg-black flex justify-center items-center z-50"
+    >
+      <img src="/assets/logo.png" alt="logo" />
+    </div>
     <!-- Wrapper -->
     <div
       class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50"
     >
       <!-- Hero Section -->
       <section class="h-dvh w-full flex flex-col">
-        <img
-          src="./assets/hero.jpg"
-          alt="hero"
-          class="h-full object-cover backdrop-brightness"
-        />
         <nav
           class="flex justify-between items-center w-full absolute z-50 py-5 px-5 slide-in-top"
         >
@@ -78,7 +79,7 @@
         </nav>
         <!-- Hero Text -->
         <div
-          class="absolute top-52 w-full px-5 flex flex-col items-center justify-center slide-in-left"
+          class="top-52 w-full px-5 flex flex-col items-center justify-center slide-in-left"
         >
           <h1
             class="uppercase text-9xl md:text-[12rem] xl:text-[16rem] font-black font-poppins text-shadow-lg shadow-black"
@@ -414,6 +415,7 @@
       </footer>
     </div>
     <!-- Scripts -->
+    <script src="./scripts/spinner.js"></script>
     <script src="./scripts/scroll-animation.js"></script>
     <script src="./scripts/hamburger-menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
