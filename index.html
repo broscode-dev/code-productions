@@ -23,20 +23,22 @@
     />
   </head>
   <body>
-    <!-- Loading Screen -->
-    <div
-      class="loading-screen h-dvh w-dvw bg-black flex justify-center items-center z-50"
-    >
-      <img src="/assets/logo.png" alt="logo" />
-    </div>
     <!-- Wrapper -->
     <div
       class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50"
     >
+      <!-- Loading Screen -->
+      <div
+        class="loading-screen h-dvh w-dvw bg-secondary-50 flex justify-center items-center z-50 absolute"
+      >
+        <img src="/assets/logo.png" alt="logo" />
+      </div>
       <!-- Hero Section -->
-      <section class="h-dvh w-full flex flex-col">
+      <section
+        class="h-dvh w-full flex flex-col bg-[url('/assets/background.svg')] bg-cover"
+      >
         <nav
-          class="flex justify-between items-center w-full absolute z-50 py-5 px-5 slide-in-top"
+          class="flex justify-between items-center w-full py-5 px-5 slide-in-top"
         >
           <img
             src="/assets/b37f730f-c040-458a-bbe4-db176370bbc3.png"
@@ -79,32 +81,28 @@
         </nav>
         <!-- Hero Text -->
         <div
-          class="top-52 w-full px-5 flex flex-col items-center justify-center slide-in-left"
+          class="w-full px-5 flex flex-col items-center justify-center mt-32 slide-in-left"
         >
+          <img src="/assets/CODE.svg" alt="logo" />
           <h1
-            class="uppercase text-9xl md:text-[12rem] xl:text-[16rem] font-black font-poppins text-shadow-lg shadow-black"
-          >
-            code
-          </h1>
-          <h1
-            class="uppercase text-5xl md:text-[4.6rem] xl:text-[6.3rem] text-primary-500 font-semibold font-poppins text-shadow-md shadow-black"
+            class="uppercase text-3xl md:text-[4.6rem] xl:text-[6.3rem] text-primary-500 font-semibold font-poppins tracking-wider"
           >
             productions
           </h1>
           <h1
-            class="uppercase text-primary-500 font-semibold font-poppins text-[0.848rem] md:text-[1.32rem] xl:text-[1.80rem] tracking-wide text-shadow-md shadow-black"
+            class="uppercase font-semibold font-poppins text-[10px] md:text-[1.32rem] xl:text-[1.80rem]"
           >
             your one-stop media and events solutions
           </h1>
         </div>
         <!-- Scroll Down -->
         <div
-          class="w-full flex justify-center items-center animate-bounce slide-in-left"
+          class="w-full flex justify-center items-end slide-in-left animate-bounce h-dvh mb-10"
         >
           <img
             src="/assets/icons8-scroll-96.png"
             alt="scroll-down"
-            class="w-8 absolute bottom-5 animate-bounce"
+            class="w-8 animate-bounce"
           />
         </div>
       </section>

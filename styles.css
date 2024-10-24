@@ -19,14 +19,14 @@
   }
 }
 .slide-in-top {
-  animation-delay: 1s;
   transform: translateY(-100%);
   animation: slideInTop 1s ease-in-out forwards;
+  animation-delay: 5s;
 }
 .slide-in-left {
   transform: translateX(-100%);
   animation: slideInLeft 1s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 6s;
 }
 .backdrop-brightness {
   animation: backgroundBrightness 1s ease-in-out forwards;
