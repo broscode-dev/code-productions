@@ -89,3 +89,8 @@
 .backdrop-brightness {
   animation: backgroundBrightness 1s ease-in-out forwards;
 }
+
+.code {
+  color: black;
+  -webkit-text-stroke: 1px white;
+}

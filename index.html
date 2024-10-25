@@ -28,18 +28,16 @@
       class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50"
     >
       <!-- Loading Screen -->
-      <div
+      <!-- <div
         class="loading-screen h-dvh w-dvw bg-secondary-50 flex justify-center items-center z-50 absolute"
       >
         <img src="/assets/logo.png" alt="logo" />
-      </div>
+      </div> -->
       <!-- Hero Section -->
       <section
         class="h-dvh w-full flex flex-col bg-[url('/assets/background.svg')] bg-cover"
       >
-        <nav
-          class="flex justify-between items-center w-full py-5 px-5 slide-in-top"
-        >
+        <nav class="flex justify-between items-center w-full py-5 px-5">
           <img
             src="/assets/b37f730f-c040-458a-bbe4-db176370bbc3.png"
             alt="logo"
@@ -81,24 +79,160 @@
         </nav>
         <!-- Hero Text -->
         <div
-          class="w-full px-5 flex flex-col items-center justify-center mt-32 slide-in-left"
+          class="w-full px-5 flex flex-col items-center justify-center mt-32"
         >
-          <img src="/assets/CODE.svg" alt="logo" />
+          <div class="relative pl-2">
+            <h1
+              class="uppercase text-6xl font-poppins font-extrabold absolute bottom-[6px] right-[6px] z-50"
+            >
+              c.o.d.e.
+            </h1>
+            <h1 class="uppercase text-6xl font-poppins font-extrabold code">
+              c.o.d.e.
+            </h1>
+          </div>
           <h1
-            class="uppercase text-3xl md:text-[4.6rem] xl:text-[6.3rem] text-primary-500 font-semibold font-poppins tracking-wider"
+            class="uppercase text-3xl md:text-[4.6rem] xl:text-[6.3rem] text-primary-500 font-extrabold font-poppins tracking-wider"
           >
             productions
           </h1>
           <h1
-            class="uppercase font-semibold font-poppins text-[10px] md:text-[1.32rem] xl:text-[1.80rem]"
+            class="uppercase font-extrabold font-poppins text-[9.8px] md:text-[1.32rem] xl:text-[1.80rem] mt-1"
           >
             your one-stop media and events solutions
           </h1>
         </div>
+        <!-- Buttons -->
+        <div class="grid grid-cols-3 mt-24 px-5 gap-y-9">
+          <!-- about us -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-about-us-50.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/story&gt;</h4>
+          </div>
+          <!-- why us -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-why-quest-50.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/value&gt;</h4>
+          </div>
+          <!-- services -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-services-50.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/services&gt;</h4>
+          </div>
+          <!-- works -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-gallery-48.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/works&gt;</h4>
+          </div>
+          <!-- planning your event -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-build-48.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/eventify&gt;</h4>
+          </div>
+          <!-- contact us -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-contact-us-50.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/connect&gt;</h4>
+          </div>
+          <!-- event types -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-stage-48 (1).png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/occasions&gt;</h4>
+          </div>
+          <!-- feedbacks -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-feedback-30.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/responses&gt;</h4>
+          </div>
+          <!-- socials -->
+          <div class="flex flex-col justify-center items-center gap-2">
+            <button
+              class="uppercase border rounded-full font-bold w-20 h-20 flex items-center justify-center"
+            >
+              <a href="#"
+                ><img
+                  src="/assets/icons/icons8-social-64.png"
+                  alt="gallery"
+                  class="w-10"
+              /></a>
+            </button>
+            <h4 class="text-sm font-semibold">&lt;/socials&gt;</h4>
+          </div>
+        </div>
         <!-- Scroll Down -->
-        <div
-          class="w-full flex justify-center items-end slide-in-left animate-bounce h-dvh mb-10"
-        >
+        <div class="w-full flex justify-center items-end h-dvh mb-10">
           <img
             src="/assets/icons8-scroll-96.png"
             alt="scroll-down"
