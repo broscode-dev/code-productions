@@ -19,7 +19,7 @@
   <body>
     <!-- Wrapper -->
     <div
-      class="h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50 font-sans"
+      class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50 font-sans"
     >
       <nav class="flex justify-between items-center w-full py-5 px-5">
         <a href="./index.html">
@@ -59,91 +59,213 @@
           </div>
         </div>
       </nav>
-      <div class="flex h-dvh gap-1 pr-1">
+      <div class="flex min-h-dvh gap-1 pr-1">
         <!-- Service Buttons -->
         <div
           class="w-1/2 h-full px-5 flex flex-col gap-5 bg-primary-500 text-black rounded-r-2xl pt-5"
         >
           <h1 class="text-3xl font-bold">Our Services</h1>
           <div class="flex flex-col gap-5 w-full">
-            <button
-              onclick="showContent(service1)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Infrastructural Production
-            </button>
-            <button
-              onclick="showContent(service2)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Audio Production
-            </button>
-            <button
-              onclick="showContent(service3)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Backline Production
-            </button>
-            <button
-              onclick="showContent(service4)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Light Production
-            </button>
-            <button
-              onclick="showContent(service5)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              LED WALL Production
-            </button>
-            <button
-              onclick="showContent(service6)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Media Production
-            </button>
-            <button
-              onclick="showContent(service7)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Artist Management
-            </button>
-            <button
-              onclick="showContent(service8)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Social Media Management
-            </button>
-            <button
-              onclick="showContent(service9)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Security and Surveillance
-            </button>
-            <button
-              onclick="showContent(service10)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Ticketing and Promotion
-            </button>
-            <button
-              onclick="showContent(service11)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Air-Conditioning
-            </button>
-            <button
-              onclick="showContent(service12)"
-              class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
-            >
-              Special FX
-            </button>
-            <a href="./index.html"
-              ><img
+            <label class="flex w-full">
+              <input
+                id="service-radio-1"
+                type="radio"
+                name="options"
+                class="peer opacity-0"
+                checked="true"
+              />
+              <button
+                type="button"
+                onclick="showContent(service1)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Infrastructural Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-2"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service2)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Audio Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-3"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service3)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Backline Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-4"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service4)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Light Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-5"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service5)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                LED WALL Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-6"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service6)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Media Production
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-7"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service7)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Artist Management
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-8"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service8)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Social Media Management
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-9"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service9)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Security and Surveillance
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-10"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service10)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Ticketing and Promotion
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-11"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service11)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Air-Conditioning
+              </button>
+            </label>
+
+            <label class="flex w-full">
+              <input
+                id="service-radio-12"
+                type="radio"
+                name="options"
+                class="peer opacity-0 pointer-events-auto"
+              />
+              <button
+                type="button"
+                onclick="showContent(service12)"
+                class="peer-checked:bg-white peer-checked:rounded-xl text-xs peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer"
+              >
+                Special FX
+              </button>
+            </label>
+
+            <a href="./index.html">
+              <img
                 src="./assets/icons8-left-arrow-50.png"
                 alt="back-to-home"
                 class="w-7"
-            /></a>
+              />
+            </a>
           </div>
         </div>
         <!-- Contents -->
@@ -172,7 +294,7 @@
           </div>
 
           <!-- Audio Production -->
-          <div id="service2" class="flex flex-col gap-3 hidden service-content">
+          <div id="service2" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Audio <span class="font-normal"> <br />Production</span>
             </h2>
@@ -208,7 +330,7 @@
           </div>
 
           <!-- Backline Production -->
-          <div id="service3" class="flex flex-col gap-3 hidden service-content">
+          <div id="service3" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Backline <span class="font-normal"> <br />Production</span>
             </h2>
@@ -239,7 +361,7 @@
           </div>
 
           <!-- Light Production -->
-          <div id="service4" class="flex flex-col gap-3 hidden service-content">
+          <div id="service4" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Light <span class="font-normal"> <br />Production</span>
             </h2>
@@ -282,7 +404,7 @@
           </div>
 
           <!-- LED Wall Production -->
-          <div id="service5" class="flex flex-col gap-3 hidden service-content">
+          <div id="service5" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Led wall design
               <span class="font-normal"> <br />& Installation</span>
@@ -317,7 +439,7 @@
           </div>
 
           <!-- Media Production -->
-          <div id="service6" class="flex flex-col gap-3 hidden service-content">
+          <div id="service6" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Media
               <span class="font-normal"> <br />Production</span>
@@ -354,7 +476,7 @@
           </div>
 
           <!-- Artist Management -->
-          <div id="service7" class="flex flex-col gap-3 hidden service-content">
+          <div id="service7" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Artist
               <span class="font-normal"> <br />Management</span>
@@ -387,7 +509,7 @@
           </div>
 
           <!-- Social Media Management -->
-          <div id="service8" class="flex flex-col gap-3 hidden service-content">
+          <div id="service8" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Social Media
               <span class="font-normal"> <br />Management</span>
@@ -420,7 +542,7 @@
           </div>
 
           <!-- Security and Surveillance -->
-          <div id="service9" class="flex flex-col gap-3 hidden service-content">
+          <div id="service9" class="flex flex-col hidden gap-3 service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Security
               <span class="font-normal"> <br />& Surveillance</span>
@@ -457,7 +579,7 @@
           <!-- Ticketing and Promotion -->
           <div
             id="service10"
-            class="flex flex-col gap-3 hidden service-content"
+            class="flex flex-col hidden gap-3 service-content"
           >
             <h2 class="text-lg text-right font-bold uppercase">
               Ticketing
@@ -493,7 +615,7 @@
           <!-- Air Conditioning -->
           <div
             id="service11"
-            class="flex flex-col gap-3 hidden service-content"
+            class="flex flex-col hidden gap-3 service-content"
           >
             <h2 class="text-lg text-right font-bold uppercase">
               Air-Conditioning
@@ -534,7 +656,7 @@
           <!-- Special FX -->
           <div
             id="service12"
-            class="flex flex-col gap-3 hidden service-content"
+            class="flex flex-col hidden gap-3 service-content"
           >
             <h2 class="text-lg text-right font-bold uppercase">
               Special
