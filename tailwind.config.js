@@ -30,6 +30,15 @@ module.exports = {
         md: "0px 2px 10px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
       },
+      animation: {
+        "slide-in-right": "slideInRight 0.5s ease-out",
+      },
+      keyframes: {
+        slideInRight: {
+          "0%": { transform: "translateX(30%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
     },
     fontFamily: {
       sans: ["Inter", "sans-serif"],
