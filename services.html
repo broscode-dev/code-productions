@@ -67,61 +67,73 @@
           <h1 class="text-3xl font-bold">Our Services</h1>
           <div class="flex flex-col gap-5 w-full">
             <button
+              onclick="showContent(service1)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Infrastructural Production
             </button>
             <button
+              onclick="showContent(service2)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Audio Production
             </button>
             <button
+              onclick="showContent(service3)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Backline Production
             </button>
             <button
+              onclick="showContent(service4)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Light Production
             </button>
             <button
+              onclick="showContent(service5)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               LED WALL Production
             </button>
             <button
+              onclick="showContent(service6)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Media Production
             </button>
             <button
+              onclick="showContent(service7)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Artist Management
             </button>
             <button
+              onclick="showContent(service8)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Social Media Management
             </button>
             <button
+              onclick="showContent(service9)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Security and Surveillance
             </button>
             <button
+              onclick="showContent(service10)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Ticketing and Promotion
             </button>
             <button
+              onclick="showContent(service11)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Air-Conditioning
             </button>
             <button
+              onclick="showContent(service12)"
               class="hover:bg-white hover:rounded-xl text-xs hover:py-3 hover:px-3 text-left duration-300 ease-linear hover:font-bold"
             >
               Special FX
@@ -137,7 +149,7 @@
         <!-- Contents -->
         <div class="flex-1">
           <!-- Infrastructural Production -->
-          <div id="content_1" class="flex flex-col gap-3 hidden">
+          <div id="service1" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Infrastructural <span class="font-normal"> <br />Production</span>
             </h2>
@@ -160,7 +172,7 @@
           </div>
 
           <!-- Audio Production -->
-          <div id="content_2" class="flex flex-col gap-3 hidden">
+          <div id="service2" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Audio <span class="font-normal"> <br />Production</span>
             </h2>
@@ -196,7 +208,7 @@
           </div>
 
           <!-- Backline Production -->
-          <div id="content_3" class="flex flex-col gap-3 hidden">
+          <div id="service3" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Backline <span class="font-normal"> <br />Production</span>
             </h2>
@@ -227,7 +239,7 @@
           </div>
 
           <!-- Light Production -->
-          <div id="content_4" class="flex flex-col gap-3 hidden">
+          <div id="service4" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Light <span class="font-normal"> <br />Production</span>
             </h2>
@@ -270,7 +282,7 @@
           </div>
 
           <!-- LED Wall Production -->
-          <div id="content_5" class="flex flex-col gap-3 hidden">
+          <div id="service5" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Led wall design
               <span class="font-normal"> <br />& Installation</span>
@@ -305,7 +317,7 @@
           </div>
 
           <!-- Media Production -->
-          <div id="content_6" class="flex flex-col gap-3 hidden">
+          <div id="service6" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Media
               <span class="font-normal"> <br />Production</span>
@@ -342,7 +354,7 @@
           </div>
 
           <!-- Artist Management -->
-          <div id="content_7" class="flex flex-col gap-3 hidden">
+          <div id="service7" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Artist
               <span class="font-normal"> <br />Management</span>
@@ -375,7 +387,7 @@
           </div>
 
           <!-- Social Media Management -->
-          <div id="content_8" class="flex flex-col gap-3 hidden">
+          <div id="service8" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Social Media
               <span class="font-normal"> <br />Management</span>
@@ -408,7 +420,7 @@
           </div>
 
           <!-- Security and Surveillance -->
-          <div id="content_9" class="flex flex-col gap-3 hidden">
+          <div id="service9" class="flex flex-col gap-3 hidden service-content">
             <h2 class="text-lg text-right font-bold uppercase">
               Security
               <span class="font-normal"> <br />& Surveillance</span>
@@ -443,7 +455,10 @@
           </div>
 
           <!-- Ticketing and Promotion -->
-          <div id="content_10" class="flex flex-col gap-3 hidden">
+          <div
+            id="service10"
+            class="flex flex-col gap-3 hidden service-content"
+          >
             <h2 class="text-lg text-right font-bold uppercase">
               Ticketing
               <span class="font-normal"> <br />& Promotion</span>
@@ -476,7 +491,10 @@
           </div>
 
           <!-- Air Conditioning -->
-          <div id="content_11" class="flex flex-col gap-3 hidden">
+          <div
+            id="service11"
+            class="flex flex-col gap-3 hidden service-content"
+          >
             <h2 class="text-lg text-right font-bold uppercase">
               Air-Conditioning
               <span class="font-normal"> <br />Installations</span>
@@ -514,7 +532,10 @@
           </div>
 
           <!-- Special FX -->
-          <div id="content_12" class="flex flex-col gap-3 hidden">
+          <div
+            id="service12"
+            class="flex flex-col gap-3 hidden service-content"
+          >
             <h2 class="text-lg text-right font-bold uppercase">
               Special
               <span class="font-normal"> <br />FX</span>
@@ -551,5 +572,6 @@
         </div>
       </div>
     </div>
+    <script src="./scripts/services.js"></script>
   </body>
 </html>
