@@ -1,3 +1,10 @@
+window.addEventListener("load", () => {
+  const firstService = document.getElementById("service-radio-1");
+  console.log(firstService);
+
+  if (firstService) firstService.checked = true;
+});
+
 function showContent(serviceEl) {
   highlightRadioButton(serviceEl.id);
   const allContent = document.querySelectorAll(".service-content");
