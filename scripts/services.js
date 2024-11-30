@@ -11,13 +11,13 @@ function showContent(serviceEl) {
 
   allContent.forEach((div) => {
     div.classList.add("hidden");
-    div.classList.remove("animate-slide-in-right"); // Remove animation on all hidden content
+    // div.classList.remove("animate-slide-in-right"); // Remove animation on all hidden content
   });
 
   if (serviceEl) {
     serviceEl.classList.remove("hidden");
     serviceEl.classList.add("flex");
-    serviceEl.classList.add("animate-slide-in-right"); // Add animation when content is shown
+    // serviceEl.classList.add("animate-slide-in-right"); // Add animation when content is shown
   }
 }
 

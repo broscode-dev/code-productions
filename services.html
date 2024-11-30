@@ -19,7 +19,7 @@
   <body>
     <!-- Wrapper -->
     <div
-      class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50 py-5"
+      class="min-h-dvh w-full bg-secondary-50 flex flex-col gap-10 text-slate-50"
     >
       <!-- Navbar -->
       <nav class="flex justify-between items-center w-full py-5 px-5">
@@ -61,7 +61,9 @@
         </div>
       </nav>
       <!-- Tabs -->
-      <div class="grid grid-cols-2 gap-2 px-5">
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 px-5"
+      >
         <label class="flex">
           <input
             id="service-radio-1"
@@ -73,7 +75,7 @@
           <button
             type="button"
             onclick="showContent(service1)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold cursor-pointer text-slate-300 w-fit"
           >
             Infrastructural Production
           </button>
@@ -89,7 +91,7 @@
           <button
             type="button"
             onclick="showContent(service2)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Audio Production
           </button>
@@ -105,7 +107,7 @@
           <button
             type="button"
             onclick="showContent(service3)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Backline Production
           </button>
@@ -121,7 +123,7 @@
           <button
             type="button"
             onclick="showContent(service4)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Light Production
           </button>
@@ -137,7 +139,7 @@
           <button
             type="button"
             onclick="showContent(service5)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             LED Wall Production
           </button>
@@ -153,7 +155,7 @@
           <button
             type="button"
             onclick="showContent(service6)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Media Production
           </button>
@@ -169,7 +171,7 @@
           <button
             type="button"
             onclick="showContent(service7)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Artist Management
           </button>
@@ -185,7 +187,7 @@
           <button
             type="button"
             onclick="showContent(service8)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Social Media Management
           </button>
@@ -201,7 +203,7 @@
           <button
             type="button"
             onclick="showContent(service9)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Security & Surveillance
           </button>
@@ -217,7 +219,7 @@
           <button
             type="button"
             onclick="showContent(service10)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Ticketing & Promotion
           </button>
@@ -233,7 +235,7 @@
           <button
             type="button"
             onclick="showContent(service11)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Air Conditioning
           </button>
@@ -249,7 +251,7 @@
           <button
             type="button"
             onclick="showContent(service12)"
-            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-full cursor-pointer text-slate-300"
+            class="peer-checked:bg-primary-500 peer-checked:text-slate-50 peer-checked:rounded-xl peer-checked:py-3 peer-checked:px-3 text-left duration-300 ease-linear peer-checked:font-bold w-fit cursor-pointer text-slate-300"
           >
             Special FX
           </button>
@@ -259,378 +261,395 @@
       <!-- Contents -->
       <div class="flex-1 overflow-hidden px-5 text-xs md:text-base">
         <!-- Infrastructural Production -->
-        <div
-          id="service1"
-          class="flex flex-col gap-3 service-content animate-slide-in-right"
-        >
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Structural concert production</span> refers
-            to the technical and logistics aspects of organizing and executing a
-            live concert event infrastructure.<br />
-            <br />This involves a range of tasks and responsibilities,
-            including:<br />
-            <br />
+        <div id="service1" class="flex flex-col gap-3 service-content">
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Structural concert production</span>
+              refers to the technical and logistics aspects of organizing and
+              executing a live concert event infrastructure.<br />
+              <br />This involves a range of tasks and responsibilities,
+              including:<br />
+              <br />
 
-            <span class="font-bold">Venue Selection:</span> Choosing an
-            appropriate location for the concert based on factors such as
-            capacity, accessibility, acoustics, weather conditions and
-            topography.
-            <br />
-            <br />
-            <span class="font-bold"> Structure Design & Construction </span>
-            Designing and building the temporary tent, stage and related
-            infrastructure, such as raised platforms, truss works, masking,
-            chairs, barricades, mats, etc.
+              <span class="font-bold">Venue Selection:</span> Choosing an
+              appropriate location for the concert based on factors such as
+              capacity, accessibility, acoustics, weather conditions and
+              topography.
+              <br />
+              <br />
+              <span class="font-bold"> Structure Design & Construction </span>
+              Designing and building the temporary tent, stage and related
+              infrastructure, such as raised platforms, truss works, masking,
+              chairs, barricades, mats, etc.
+            </div>
           </div>
         </div>
         <!-- Audio Production -->
-        <div
-          id="service2"
-          class="flex flex-col hidden gap-3 service-content animate-slide-in-right"
-        >
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Audio production</span>
-            in live events refers to the planning, implementation, and
-            management of sound systems and equipment for live performances.<br />
-            <br />
-            The process of audio production in live events involves: <br />
-            <br />
-            <span class="font-bold">Planning and preparation:</span> Works
-            closely with the event organizers and performers to understand their
-            audio requirements. <br />
-            <br />
-            <span class="font-bold">Equipment selection and setup:</span>
-            Selects and sets up the appropriate audio equipment.
-            <br />
-            <br />
-            <span class="font-bold">Soundcheck and testing:</span>
-            Conducts a sound check to test the audio equipment and ensure that
-            the sound levels and quality are appropriate for the venue.
-            <br />
-            <br />
-            <span class="font-bold">Monitoring and adjusting:</span>
-            Monitors the sound levels and adjusts the audio equipment as needed
-            to maintain the desired sound quality.
-            <br />
-            <br />
-            <span class="font-bold">Post-production and recording:</span>
-            Performs works such as mixing and mastering the audio recordings.
+        <div id="service2" class="flex flex-col hidden gap-3 service-content">
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Audio production</span> in live events
+              refers to the planning, implementation, and management of sound
+              systems and equipment for live performances.<br />
+              <br />
+              The process of audio production in live events involves: <br />
+              <br />
+              <span class="font-bold">Planning and preparation:</span> Works
+              closely with the event organizers and performers to understand
+              their audio requirements. <br />
+              <br />
+              <span class="font-bold">Equipment selection and setup:</span>
+              Selects and sets up the appropriate audio equipment.
+              <br />
+              <br />
+              <span class="font-bold">Soundcheck and testing:</span>
+              Conducts a sound check to test the audio equipment and ensure that
+              the sound levels and quality are appropriate for the venue.
+              <br />
+              <br />
+              <span class="font-bold">Monitoring and adjusting:</span>
+              Monitors the sound levels and adjusts the audio equipment as
+              needed to maintain the desired sound quality.
+              <br />
+              <br />
+              <span class="font-bold">Post-production and recording:</span>
+              Performs works such as mixing and mastering the audio recordings.
+            </div>
           </div>
         </div>
 
         <!-- Backline Production -->
         <div id="service3" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Backline production</span>
-            in live events refers to the equipment and instruments that are
-            placed on stage for the performers to use during their performance.
-            This can include items such as drums, guitar and bass amplifiers,
-            keyboards, and other musical equipment.<br />
-            <br />
-            The <span class="font-bold">backline technician</span> works closely
-            with the artist's team to ensure that the specific equipment and
-            instruments requested by the artist are available and properly set
-            up for their performance.<br />
-            <br />
-            <span class="font-bold">Backline production</span>
-            is an important aspect of live events as it enables the performers
-            to focus on their performance without having to worry about the
-            technical aspects of the equipment.
-            <br />
-            <br />
-            Overall,
-            <span class="font-bold">backline production</span>
-            is a critical component of live events that require technical
-            expertise and attention to detail to ensure that the performers have
-            everything they need to deliver a successful performance.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Backline production</span> in live events
+              refers to the equipment and instruments that are placed on stage
+              for the performers to use during their performance. This can
+              include items such as drums, guitar and bass amplifiers,
+              keyboards, and other musical equipment.<br />
+              <br />
+              The <span class="font-bold">backline technician</span> works
+              closely with the artist's team to ensure that the specific
+              equipment and instruments requested by the artist are available
+              and properly set up for their performance.<br />
+              <br />
+              <span class="font-bold">Backline production</span>
+              is an important aspect of live events as it enables the performers
+              to focus on their performance without having to worry about the
+              technical aspects of the equipment.
+              <br />
+              <br />
+              Overall,
+              <span class="font-bold">backline production</span>
+              is a critical component of live events that require technical
+              expertise and attention to detail to ensure that the performers
+              have everything they need to deliver a successful performance.
+            </div>
           </div>
         </div>
 
         <!-- Light Production -->
         <div id="service4" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Light production</span>
-            in live events refers to the planning, design, and implementation of
-            lighting systems to enhance the visual experience of live
-            performances, such as concerts, theatre productions, and dance
-            performances. The goal is to create a visually engaging and
-            memorable experience.<br />
-            <br />
-            The process of light production in live events involves:<br />
-            <br />
-            <span class="font-bold">Step 1:</span>
-            Conceptualization and design <br />
-            <span class="font-bold">Step 2:</span>
-            Equipment selection and setup
-            <br />
-            <span class="font-bold">Step 3:</span>
-            Programming and testing
-            <br />
-            <span class="font-bold">Step 4:</span>
-            Monitoring and adjusting
-            <br />
-            <br />
-            Here are some of the most commonly used lights in events:
-            <br />
-            <br />
-            <span class="font-bold">PAR Cans</span> <br />
-            <span class="font-bold">Moving Head Lights</span> <br />
-            <span class="font-bold">Spotlights</span> <br />
-            <span class="font-bold">Strip Lights</span> <br />
-            <span class="font-bold">Gobos</span> <br />
-            <span class="font-bold">Strobe Lights</span> <br />
-            <span class="font-bold">Blinders</span> <br />
-            <span class="font-bold">Floodlights</span> <br />
-            <span class="font-bold">Colour wash lights</span> <br />
-            <span class="font-bold">Special effects lights</span>
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Light production</span> in live events
+              refers to the planning, design, and implementation of lighting
+              systems to enhance the visual experience of live performances,
+              such as concerts, theatre productions, and dance performances. The
+              goal is to create a visually engaging and memorable experience.<br />
+              <br />
+              The process of light production in live events involves:<br />
+              <br />
+              <span class="font-bold">Step 1:</span>
+              Conceptualization and design <br />
+              <span class="font-bold">Step 2:</span>
+              Equipment selection and setup
+              <br />
+              <span class="font-bold">Step 3:</span>
+              Programming and testing
+              <br />
+              <span class="font-bold">Step 4:</span>
+              Monitoring and adjusting
+              <br />
+              <br />
+              Here are some of the most commonly used lights in events:
+              <br />
+              <br />
+              <span class="font-bold">PAR Cans</span> <br />
+              <span class="font-bold">Moving Head Lights</span> <br />
+              <span class="font-bold">Spotlights</span> <br />
+              <span class="font-bold">Strip Lights</span> <br />
+              <span class="font-bold">Gobos</span> <br />
+              <span class="font-bold">Strobe Lights</span> <br />
+              <span class="font-bold">Blinders</span> <br />
+              <span class="font-bold">Floodlights</span> <br />
+              <span class="font-bold">Colour wash lights</span> <br />
+              <span class="font-bold">Special effects lights</span>
+            </div>
           </div>
         </div>
 
         <!-- LED Wall Production -->
         <div id="service5" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">LED wall production</span>
-            in live events refers to the use of LED video walls as a backdrop or
-            visual element of the performance. They create visually stunning
-            backdrops, display dynamic video content, and enhance the overall
-            visual experience of the audience.<br />
-            <br />
-            The process of LED wall production in live events involves:<br />
-            <br />
-            <span class="font-bold">Conceptualization and design:</span>
-            We develop a concept and design that complements the performance and
-            venue.
-            <br />
-            <br />
-            <span class="font-bold">Equipment selection and setup:</span>
-            Based on the LED wall design, the team selects and sets up the
-            appropriate LED panels, video processors, and other equipment.
-            <br />
-            <br />
-            <span class="font-bold">Content creation and programming:</span>
-            The content to be displayed will be handled by the team.
-            <br />
-            <br />
-            <span class="font-bold">Monitoring and adjusting:</span>
-            During the event, the team monitors the LED wall display and adjusts
-            it as needed.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">LED wall production</span> in live events
+              refers to the use of LED video walls as a backdrop or visual
+              element of the performance. They create visually stunning
+              backdrops, display dynamic video content, and enhance the overall
+              visual experience of the audience.<br />
+              <br />
+              The process of LED wall production in live events involves:<br />
+              <br />
+              <span class="font-bold">Conceptualization and design:</span>
+              We develop a concept and design that complements the performance
+              and venue.
+              <br />
+              <br />
+              <span class="font-bold">Equipment selection and setup:</span>
+              Based on the LED wall design, the team selects and sets up the
+              appropriate LED panels, video processors, and other equipment.
+              <br />
+              <br />
+              <span class="font-bold">Content creation and programming:</span>
+              The content to be displayed will be handled by the team.
+              <br />
+              <br />
+              <span class="font-bold">Monitoring and adjusting:</span>
+              During the event, the team monitors the LED wall display and
+              adjusts it as needed.
+            </div>
           </div>
         </div>
 
         <!-- Media Production -->
         <div id="service6" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Media production</span>
-            in live events involves the creation, integration, and presentation
-            of various media elements such as videos, images, audio, and other
-            digital content, into live event production.<br />
-            <br />
-            Media production in live events involves:<br />
-            <br />
-            <span class="font-bold">Conceptualization and planning:</span>
-            Works closely with event organizers, performers, etc to gather
-            requirements and then develop a concept and plan that outlines the
-            media elements that will be integrated into the event.
-            <br />
-            <br />
-            <span class="font-bold">Pre-production:</span>
-            Creates and develops the media content, such as videos, graphics,
-            and other digital assets, that will be used in the live event.
-            <br />
-            <br />
-            <span class="font-bold">Integration and presentation:</span>
-            Integrates and presents the media elements, such as video
-            projections, sound effects, and lighting, to enhance the audience's
-            experience and complement the performance.
-            <br />
-            <br />
-            <span class="font-bold">Post-production:</span>
-            Includes editing and colour grading, to prepare the media content
-            for distribution or future use.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Media production</span> in live events
+              involves the creation, integration, and presentation of various
+              media elements such as videos, images, audio, and other digital
+              content, into live event production.<br />
+              <br />
+              Media production in live events involves:<br />
+              <br />
+              <span class="font-bold">Conceptualization and planning:</span>
+              Works closely with event organizers, performers, etc to gather
+              requirements and then develop a concept and plan that outlines the
+              media elements that will be integrated into the event.
+              <br />
+              <br />
+              <span class="font-bold">Pre-production:</span>
+              Creates and develops the media content, such as videos, graphics,
+              and other digital assets, that will be used in the live event.
+              <br />
+              <br />
+              <span class="font-bold">Integration and presentation:</span>
+              Integrates and presents the media elements, such as video
+              projections, sound effects, and lighting, to enhance the
+              audience's experience and complement the performance.
+              <br />
+              <br />
+              <span class="font-bold">Post-production:</span>
+              Includes editing and colour grading, to prepare the media content
+              for distribution or future use.
+            </div>
           </div>
         </div>
 
         <!-- Artist Management -->
         <div id="service7" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Artist Management</span>
-            in live events refers to the process of handling the professional
-            affairs and career development of performers, such as musicians,
-            actors, and other artists.<br />
-            <br />
-            The <span class="font-bold">artist manager</span> is responsible for
-            artist's live events, including booking performances, negotiating
-            contracts, arranging transportation and accomodation, coordinating
-            with event promoters and organizers, and ensuring that the artist is
-            prepared for their performance. <br />
-            <br />
-            In addition to
-            <span class="font-bold">logistical responsibilities,</span> artist
-            management also involves promoting the artist's brand and building
-            their fan base through marketing. This includes creating social
-            media content, coordinating interviews with media outlets, and
-            working with sponsors to secure endorsements and partnerships.
-            <br />
-            <br />
-            Overall, <span class="font-bold">artist management</span> in live
-            events is an essential function that requires strong organizational
-            and communication skills, as well as a deep understanding of the
-            music and entertainment industry.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Artist Management</span> in live events
+              refers to the process of handling the professional affairs and
+              career development of performers, such as musicians, actors, and
+              other artists.<br />
+              <br />
+              The <span class="font-bold">artist manager</span> is responsible
+              for artist's live events, including booking performances,
+              negotiating contracts, arranging transportation and accomodation,
+              coordinating with event promoters and organizers, and ensuring
+              that the artist is prepared for their performance. <br />
+              <br />
+              In addition to
+              <span class="font-bold">logistical responsibilities,</span> artist
+              management also involves promoting the artist's brand and building
+              their fan base through marketing. This includes creating social
+              media content, coordinating interviews with media outlets, and
+              working with sponsors to secure endorsements and partnerships.
+              <br />
+              <br />
+              Overall, <span class="font-bold">artist management</span> in live
+              events is an essential function that requires strong
+              organizational and communication skills, as well as a deep
+              understanding of the music and entertainment industry.
+            </div>
           </div>
         </div>
 
         <!-- Social Media Management -->
         <div id="service8" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Social Media Management</span>
-            in live events refers to the process of managing and creating
-            content for social media platforms to promote and engage with
-            attendees during the event.<br />
-            <br />
-            It involves developing a
-            <span class="font-bold">social media strategy</span> that aligns
-            with the event's goals and target audience. This includes
-            identifying the relevant social media platforms to use, such as
-            Twitter, Facebook, and Instagram, and creating content that
-            resonates with the audience. <br />
-            <br />
-            The content can include pre-event promotion, live updates during the
-            event, and post-event follow-up.
-            <span class="font-bold">Live updates</span> can include photos,
-            videos, and text-based posts that showcase the event's highlights
-            and encourage attendees to share their own experiences.
-            <br />
-            <br />
-            <span class="font-bold">Social media management</span> also involves
-            monitoring and engaging with attendees on social media, such as
-            responding to comments, and messages and addressing any concerns or
-            questions in a timely manner.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Social Media Management</span> in live
+              events refers to the process of managing and creating content for
+              social media platforms to promote and engage with attendees during
+              the event.<br />
+              <br />
+              It involves developing a
+              <span class="font-bold">social media strategy</span> that aligns
+              with the event's goals and target audience. This includes
+              identifying the relevant social media platforms to use, such as
+              Twitter, Facebook, and Instagram, and creating content that
+              resonates with the audience. <br />
+              <br />
+              The content can include pre-event promotion, live updates during
+              the event, and post-event follow-up.
+              <span class="font-bold">Live updates</span> can include photos,
+              videos, and text-based posts that showcase the event's highlights
+              and encourage attendees to share their own experiences.
+              <br />
+              <br />
+              <span class="font-bold">Social media management</span> also
+              involves monitoring and engaging with attendees on social media,
+              such as responding to comments, and messages and addressing any
+              concerns or questions in a timely manner.
+            </div>
           </div>
         </div>
 
         <!-- Security and Surveillance -->
         <div id="service9" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Event security</span>
-            in live events refers to the process of managing and ensuring the
-            safety and security of attendees, staff and performers during an
-            event. It is a critical component of live events as it helps to
-            prevent incidents, minimise risks, and create a safe environment for
-            all participants.<br />
-            <br />
-            <span class="font-bold">Event security</span> typically involves a
-            range of measures, including physical security, such as access
-            control, bag checks, and metal detectors, as well as staffing
-            security, such as security guards, ushers, and event coordinators.
-            <br />
-            <br />
-            <span class="font-bold">Event security</span> also involves
-            developing emergency plans and protocols for different scenarios
-            such as medical emergencies, natural disasters, or security threats.
-            These plans should include a clear chain of command, communication
-            protocols, and evacuation procedures to ensure the safety of all
-            attendees and staff.
-            <br />
-            <br />
-            <span class="font-bold">Event security</span> also involves risk
-            assessment and management, which requires identifying potential
-            risks, such as overcrowding, potential protests, or security
-            breaches, and taking proactive measures to prevent them.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Event security</span> in live events
+              refers to the process of managing and ensuring the safety and
+              security of attendees, staff and performers during an event. It is
+              a critical component of live events as it helps to prevent
+              incidents, minimise risks, and create a safe environment for all
+              participants.<br />
+              <br />
+              <span class="font-bold">Event security</span> typically involves a
+              range of measures, including physical security, such as access
+              control, bag checks, and metal detectors, as well as staffing
+              security, such as security guards, ushers, and event coordinators.
+              <br />
+              <br />
+              <span class="font-bold">Event security</span> also involves
+              developing emergency plans and protocols for different scenarios
+              such as medical emergencies, natural disasters, or security
+              threats. These plans should include a clear chain of command,
+              communication protocols, and evacuation procedures to ensure the
+              safety of all attendees and staff.
+              <br />
+              <br />
+              <span class="font-bold">Event security</span> also involves risk
+              assessment and management, which requires identifying potential
+              risks, such as overcrowding, potential protests, or security
+              breaches, and taking proactive measures to prevent them.
+            </div>
           </div>
         </div>
 
         <!-- Ticketing and Promotion -->
         <div id="service10" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Marketing and selling tickets</span>
-            to the concert, using a variety of channels to reach the target
-            audience.<br />
-            <br />
-            <span class="font-bold">Ticketing</span> is the process of selling
-            and managing tickets for a specific event. This involves setting up
-            a ticketing system, creating different types of tickets, managing
-            the inventory of available tickets, and selling the tickets to
-            potential customers.
-            <br />
-            <br />
-            <span class="font-bold">Ticketing</span> process involves setting up
-            a pricing structure, and discounts, and managing the ticket
-            inventory. In addition, ticketing also manages the admission process
-            on the day of the event. This may include scanning tickets, checking
-            IDs, and managing entry and exit points to ensure that the event
-            runs smoothly and safely.
-            <br />
-            <br />
-            <span class="font-bold">Promotion</span> is the process of creating
-            awareness, generating excitement, and encouraging people to attend
-            the event. It helps to increase ticket sales, boost attendance, and
-            create a buzz around the event.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Marketing and selling tickets</span> to
+              the concert, using a variety of channels to reach the target
+              audience.<br />
+              <br />
+              <span class="font-bold">Ticketing</span> is the process of selling
+              and managing tickets for a specific event. This involves setting
+              up a ticketing system, creating different types of tickets,
+              managing the inventory of available tickets, and selling the
+              tickets to potential customers.
+              <br />
+              <br />
+              <span class="font-bold">Ticketing</span> process involves setting
+              up a pricing structure, and discounts, and managing the ticket
+              inventory. In addition, ticketing also manages the admission
+              process on the day of the event. This may include scanning
+              tickets, checking IDs, and managing entry and exit points to
+              ensure that the event runs smoothly and safely.
+              <br />
+              <br />
+              <span class="font-bold">Promotion</span> is the process of
+              creating awareness, generating excitement, and encouraging people
+              to attend the event. It helps to increase ticket sales, boost
+              attendance, and create a buzz around the event.
+            </div>
           </div>
         </div>
 
         <!-- Air Conditioning -->
         <div id="service11" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Air conditioning production</span>
-            refers to the planning and implementation of cooling systems to
-            regulate the temperature and humidity levels in event venues, such
-            as concert halls, convention centres, and outdoor festivals.<br />
-            <br />
-            The process of air conditioning production involves:
-            <br />
-            <br />
-            <span class="font-bold">Assessment of the venue:</span> Assess the
-            size and layout of the event venue, as well as the expected number
-            of attendees, to determine the appropriate cooling system
-            requirements.
-            <br />
-            <br />
-            <span class="font-bold">Selection of cooling systems:</span>
-            Selects the appropriate AC units, such as central AC systems,
-            portable AC units, or evaporative coolers.
-            <br />
-            <br />
-            <span class="font-bold">Installation and set-up:</span> Includes
-            determining the location and number of units needed, as well as any
-            necessary electrical or plumbing connections.
-            <br />
-            <br />
-            <span class="font-bold">Monitoring and maintenance:</span>
-            During the event, systems are monitored to ensure they are
-            functioning properly and maintaining the desired temperature and
-            humidity levels.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Air conditioning production</span> refers
+              to the planning and implementation of cooling systems to regulate
+              the temperature and humidity levels in event venues, such as
+              concert halls, convention centres, and outdoor festivals.<br />
+              <br />
+              The process of air conditioning production involves:
+              <br />
+              <br />
+              <span class="font-bold">Assessment of the venue:</span> Assess the
+              size and layout of the event venue, as well as the expected number
+              of attendees, to determine the appropriate cooling system
+              requirements.
+              <br />
+              <br />
+              <span class="font-bold">Selection of cooling systems:</span>
+              Selects the appropriate AC units, such as central AC systems,
+              portable AC units, or evaporative coolers.
+              <br />
+              <br />
+              <span class="font-bold">Installation and set-up:</span> Includes
+              determining the location and number of units needed, as well as
+              any necessary electrical or plumbing connections.
+              <br />
+              <br />
+              <span class="font-bold">Monitoring and maintenance:</span>
+              During the event, systems are monitored to ensure they are
+              functioning properly and maintaining the desired temperature and
+              humidity levels.
+            </div>
           </div>
         </div>
 
         <!-- Special FX -->
         <div id="service12" class="flex flex-col hidden gap-3 service-content">
-          <div class="bg-slate-50 text-black p-4 rounded-xl">
-            <span class="font-bold">Special effects (FX)</span>
-            refers to the use of various technical elements, such as lighting,
-            sound, and visual effects, to create a unique and immersive
-            experience for the audience.<br />
-            <br />
-            Some examples of special FX include:
-            <br />
-            <br />
-            <span class="font-bold">Pyrotechnics:</span> The use of fireworks,
-            flames, and other explosive effects to create a spectacle.
-            <br />
-            <br />
-            <span class="font-bold">Lighting effects:</span>
-            The use of specialized lighting equipment, such as lasers, strobe
-            lights, and moving lights, to create a dynamic and visually stunning
-            atmosphere.
-            <br />
-            <br />
-            <span class="font-bold">Sound effects:</span> The use of sound
-            equipment and techniques, such as surround sound, reverberation, and
-            sound effects, to create an immersive audio experience.
-            <br />
-            <br />
-            <span class="font-bold">Visual effects:</span>
-            The use of video projection, LED screens, and other visual effects
-            to create a dynamic and engaging visual display.
+          <div class="bg-slate-50 text-black text-xs p-4 rounded-xl">
+            <div class="animate-slide-in-right">
+              <span class="font-bold">Special effects (FX)</span> refers to the
+              use of various technical elements, such as lighting, sound, and
+              visual effects, to create a unique and immersive experience for
+              the audience.<br />
+              <br />
+              Some examples of special FX include:
+              <br />
+              <br />
+              <span class="font-bold">Pyrotechnics:</span> The use of fireworks,
+              flames, and other explosive effects to create a spectacle.
+              <br />
+              <br />
+              <span class="font-bold">Lighting effects:</span>
+              The use of specialized lighting equipment, such as lasers, strobe
+              lights, and moving lights, to create a dynamic and visually
+              stunning atmosphere.
+              <br />
+              <br />
+              <span class="font-bold">Sound effects:</span> The use of sound
+              equipment and techniques, such as surround sound, reverberation,
+              and sound effects, to create an immersive audio experience.
+              <br />
+              <br />
+              <span class="font-bold">Visual effects:</span>
+              The use of video projection, LED screens, and other visual effects
+              to create a dynamic and engaging visual display.
+            </div>
           </div>
         </div>
       </div>
